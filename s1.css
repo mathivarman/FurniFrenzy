@@ -1,0 +1,35 @@
+.section1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7c3030;
+    width: auto;
+}
+
+.content {
+    background-color: #7c3030;
+    color: white;
+}
+
+.img {
+    background-color: #7c3030;
+    color: white;
+    
+}
+.button{
+    width: 100px; 
+    height: 25px; 
+    font-size: 16px;
+    background-color: #7c3030;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.button:hover{
+    background-color:antiquewhite;
+}
